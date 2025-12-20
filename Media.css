@@ -1,0 +1,260 @@
+
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 600px) {
+
+    .nav-search-section-3 {
+        display: none; 
+    }
+
+    .nav-bar {
+        justify-content: center;
+    }
+
+ 
+    .nav-bar-section-1 img {
+        width: 120px !important;
+    }
+}
+
+
+
+
+/* Responsive navbar */
+@media (max-width: 992px) {
+
+    .nav-container {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+    .nav-bar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        overflow: hidden;
+    }
+
+    .nav-list-section-2 {
+        flex: 1;
+        min-width: 0;   
+    }
+
+    .nav-search-section-3 {
+        display: flex;
+        gap: 8px;
+        flex-shrink: 0;
+    }
+
+    .talk-get-buttons {
+        display: flex;
+        gap: 5px;
+        flex-shrink: 0;
+    }
+
+    #talk, #get {
+        padding: 8px 12px;
+        white-space: nowrap;
+    }
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+    .nav-search-section-3 {
+        display: none;
+    }
+}
+
+
+
+
+/* ------------------------------ */
+/*  HEADER SECTION                */
+/* ------------------------------ */
+
+@media (max-width: 992px) {
+    .header-container {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .work-video video {
+        width: 100%;
+    }
+
+    .slack-sub-texts {
+        font-size: 16px;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .get-find-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #get-started, #find {
+        width: 90%;
+    }
+
+    .brands-logo {
+        padding: 0 20px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+/* ------------------------------ */
+/*  SLIDER SECTION                */
+/* ------------------------------ */
+
+@media (max-width: 992px) {
+    .slider-1,
+    .slider-2,
+    .slider-3,
+    .slider-4 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .slider-text {
+        width: 100% !important;
+        padding: 0 20px;
+    }
+
+    .slider-images {
+        width: 100%;
+        margin-left: 0 !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .slider-images video {
+        width: 90%;
+    }
+}
+
+/* ------------------------------ */
+/*  AI SECTION                    */
+/* ------------------------------ */
+
+@media (max-width: 992px) {
+    .ai-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .ai-left,
+    .ai-right {
+        width: 100%;
+    }
+}
+
+/* ------------------------------ */
+/*  VIDEO LAYER SECTION           */
+/* ------------------------------ */
+
+@media (max-width: 992px) {
+    .video-layers {
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 0;
+    }
+
+    .video-layers > div {
+        width: 100% !important;
+        flex-grow: 1 !important;
+    }
+
+    .video-layer-1,
+    .video-layer-2,
+    .video-layer-3,
+    .video-layer-4 {
+        width: 100% !important;
+        height: 260px;
+    }
+}
+
+/* ------------------------------ */
+/*  SECTION 4        */
+/* ------------------------------ */
+
+@media (max-width: 992px) {
+    .section-4-elements {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .element {
+        width: 100%;
+    }
+}
+
+/* ------------------------------ */
+/*  SECTION 5 - SPLIT GRID        */
+/* ------------------------------ */
+
+@media (max-width: 992px) {
+    .split {
+        grid-template-columns: 1fr;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .left {
+        padding: 0 20px;
+    }
+}
+
+/* ------------------------------ */
+/*  SECTION 6 - PROMO CARDS       */
+/* ------------------------------ */
+
+@media (max-width: 992px) {
+    .section-6-cards {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 20px;
+    }
+
+    .s-6-c {
+        width: 90%;
+    }
+}
+
+/* ------------------------------ */
+/*  FOOTER SECTION                */
+/* ------------------------------ */
+
+@media (max-width: 992px) {
+    .section-8-div-2-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .section-8-div-2-container-lists {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .section-8-div-2-container-lists {
+        width: 100%;
+    }
+}

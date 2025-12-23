@@ -1,4 +1,4 @@
-🚀 Slack Landing Page Clone
+Slack Landing Page Clone
 
 A clean, responsive Slack Landing Page Clone built with HTML5 and CSS3, focused on layout accuracy, responsiveness, and modern UI practices.
 This project was created to strengthen front-end development skills and demonstrate the ability to recreate real-world product landing pages using pure web technologies.
@@ -79,7 +79,7 @@ Optimized images and videos
 
 Clone the repository
 
-git clone https://github.com/your-username/slack-landing-page-clone.git
+git clone https://github.com/teshaleweldu/slack-landing-page-clone.git
 
 
 Navigate to the project folder
